@@ -1,36 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
-  <!-- Dark background -->
-  <rect width="32" height="32" fill="#0a0a0a" rx="6"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <!-- Dark background with rounded corners -->
+  <rect width="240" height="240" fill="#0a0a0a" rx="48"/>
   
-  <!-- Braille fire pattern (scaled down) -->
-  <text x="16" y="10" 
+  <!-- Braille fire pattern from CLI banner -->
+  <text x="120" y="85" 
         font-family="monospace" 
-        font-size="4" 
+        font-size="28" 
         fill="#ff8c00" 
         text-anchor="middle">⠀⢱⣆⠀</text>
-  <text x="16" y="14" 
+  <text x="120" y="110" 
         font-family="monospace" 
-        font-size="4" 
+        font-size="28" 
         fill="#ff8c00" 
         text-anchor="middle">⠀⠈⣿⣷⡀</text>
-  <text x="16" y="18" 
+  <text x="120" y="135" 
         font-family="monospace" 
-        font-size="4" 
+        font-size="28" 
         fill="#ff8c00" 
         text-anchor="middle">⢀⣠⣿⣿⣿⣧</text>
-  <text x="16" y="22" 
+  <text x="120" y="160" 
         font-family="monospace" 
-        font-size="4" 
+        font-size="28" 
         fill="#ff8c00" 
         text-anchor="middle">⢰⣿⣿⡟⢸⣿⣿</text>
-  <text x="16" y="26" 
+  <text x="120" y="185" 
         font-family="monospace" 
-        font-size="4" 
+        font-size="28" 
         fill="#ff8c00" 
         text-anchor="middle">⢸⣿⣿⡏⠀⣾⣿⡿</text>
-  <text x="16" y="30" 
+  <text x="120" y="210" 
         font-family="monospace" 
-        font-size="4" 
+        font-size="28" 
         fill="#ff8c00" 
         text-anchor="middle">⠈⠛⠿⠃⠀⠈⠛⠃</text>
 </svg>
