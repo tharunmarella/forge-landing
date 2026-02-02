@@ -58,10 +58,53 @@ export default function Home() {
         <p><span className="text-[#ff8c00]">→</span> async git checkpoints <span className="text-[#444]">— undo changes without blocking</span></p>
       </div>
 
-      {/* Why Forge */}
-      <div className="mt-12 text-[#555] text-xs text-center max-w-sm leading-relaxed">
-        <p className="text-[#666] mb-2">vs cursor, aider, claude code:</p>
-        <p>runs in your terminal · byom (bring your own model) · no subscription · your code never leaves your machine</p>
+      {/* Comparison Table */}
+      <div className="mt-16 w-full max-w-md text-xs sm:text-sm">
+        <div className="grid grid-cols-4 gap-2 mb-2 text-[#666] border-b border-[#333] pb-2">
+          <div className="font-bold text-[#d4d4d4]">FEATURE</div>
+          <div className="text-center font-bold text-[#ff8c00]">FORGE</div>
+          <div className="text-center">CURSOR</div>
+          <div className="text-center">AIDER</div>
+        </div>
+        
+        <div className="space-y-2 text-[#888]">
+          <div className="grid grid-cols-4 gap-2">
+            <div>Terminal</div>
+            <div className="text-center text-[#d4d4d4]">✅</div>
+            <div className="text-center text-[#444]">❌</div>
+            <div className="text-center text-[#666]">✅</div>
+          </div>
+          <div className="grid grid-cols-4 gap-2">
+            <div>Auto Docs</div>
+            <div className="text-center text-[#d4d4d4]">✅</div>
+            <div className="text-center text-[#444]">❌</div>
+            <div className="text-center text-[#444]">❌</div>
+          </div>
+          <div className="grid grid-cols-4 gap-2">
+            <div>LSP Integ.</div>
+            <div className="text-center text-[#d4d4d4]">✅</div>
+            <div className="text-center text-[#666]">✅</div>
+            <div className="text-center text-[#444]">❌</div>
+          </div>
+          <div className="grid grid-cols-4 gap-2">
+            <div>Semantic Search</div>
+            <div className="text-center text-[#d4d4d4]">✅</div>
+            <div className="text-center text-[#666]">✅</div>
+            <div className="text-center text-[#444]">❌</div>
+          </div>
+          <div className="grid grid-cols-4 gap-2">
+            <div>Local Code</div>
+            <div className="text-center text-[#d4d4d4]">✅</div>
+            <div className="text-center text-[#444]">❌</div>
+            <div className="text-center text-[#666]">✅</div>
+          </div>
+          <div className="grid grid-cols-4 gap-2">
+            <div>No Sub.</div>
+            <div className="text-center text-[#d4d4d4]">✅</div>
+            <div className="text-center text-[#444]">❌</div>
+            <div className="text-center text-[#666]">✅</div>
+          </div>
+        </div>
       </div>
     </main>
   );
