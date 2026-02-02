@@ -52,7 +52,7 @@ export default function Home() {
         <p><span className="text-[#ff8c00]">→</span> auto documentation fetching <span className="text-[#444]">— knows react, supabase, stripe docs</span></p>
         <p><span className="text-[#ff8c00]">→</span> smart model routing <span className="text-[#444]">— fast model for tools, flagship for reasoning</span></p>
         <p><span className="text-[#ff8c00]">→</span> lsp integration <span className="text-[#444]">— real type errors, not guessing</span></p>
-        <p><span className="text-[#ff8c00]">→</span> semantic code search <span className="text-[#444]">— finds code by meaning, not text</span></p>
+        <p><span className="text-[#ff8c00]">→</span> semantic code understanding <span className="text-[#444]">— finds code by meaning, not text</span></p>
         <p><span className="text-[#ff8c00]">→</span> mcp server support <span className="text-[#444]">— extend with external tools</span></p>
         <p><span className="text-[#ff8c00]">→</span> works with any llm <span className="text-[#444]">— openai, anthropic, ollama, etc</span></p>
         <p><span className="text-[#ff8c00]">→</span> async git checkpoints <span className="text-[#444]">— undo changes without blocking</span></p>
@@ -87,7 +87,7 @@ export default function Home() {
             <div className="text-center text-[#444]">❌</div>
           </div>
           <div className="grid grid-cols-4 gap-2">
-            <div>Semantic Search</div>
+            <div>Code Und.</div>
             <div className="text-center text-[#d4d4d4]">✅</div>
             <div className="text-center text-[#666]">✅</div>
             <div className="text-center text-[#444]">❌</div>
