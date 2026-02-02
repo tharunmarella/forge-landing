@@ -48,16 +48,20 @@ export default function Home() {
       </p>
 
       {/* Features as terminal output */}
-      <div className="mt-16 text-[#666] text-xs sm:text-sm space-y-1 text-left">
-        <p><span className="text-[#ff8c00]">→</span> auto documentation fetching</p>
-        <p><span className="text-[#ff8c00]">→</span> smart model routing</p>
-        <p><span className="text-[#ff8c00]">→</span> async git checkpoints</p>
-        <p><span className="text-[#ff8c00]">→</span> works with any llm provider</p>
-        <p><span className="text-[#ff8c00]">→</span> mcp server support</p>
-        <p><span className="text-[#ff8c00]">→</span> agentic code editing</p>
-        <p><span className="text-[#ff8c00]">→</span> lsp integration</p>
-        <p><span className="text-[#ff8c00]">→</span> semantic code search</p>
-        <p><span className="text-[#ff8c00]">→</span> browser automation</p>
+      <div className="mt-12 text-[#666] text-xs sm:text-sm space-y-2 text-left max-w-md">
+        <p><span className="text-[#ff8c00]">→</span> auto documentation fetching <span className="text-[#444]">— knows react, supabase, stripe docs</span></p>
+        <p><span className="text-[#ff8c00]">→</span> smart model routing <span className="text-[#444]">— fast model for tools, flagship for reasoning</span></p>
+        <p><span className="text-[#ff8c00]">→</span> lsp integration <span className="text-[#444]">— real type errors, not guessing</span></p>
+        <p><span className="text-[#ff8c00]">→</span> semantic code search <span className="text-[#444]">— finds code by meaning, not text</span></p>
+        <p><span className="text-[#ff8c00]">→</span> mcp server support <span className="text-[#444]">— extend with external tools</span></p>
+        <p><span className="text-[#ff8c00]">→</span> works with any llm <span className="text-[#444]">— openai, anthropic, ollama, etc</span></p>
+        <p><span className="text-[#ff8c00]">→</span> async git checkpoints <span className="text-[#444]">— undo changes without blocking</span></p>
+      </div>
+
+      {/* Why Forge */}
+      <div className="mt-12 text-[#555] text-xs text-center max-w-sm leading-relaxed">
+        <p className="text-[#666] mb-2">vs cursor, aider, claude code:</p>
+        <p>runs in your terminal · byom (bring your own model) · no subscription · your code never leaves your machine</p>
       </div>
     </main>
   );
